@@ -25,6 +25,12 @@ languages:
   ko:
     approval_required: true
     publication_model: human_approved
+    translation_policy: source_library_distinction_preservation
+translation_policies:
+  source_library_distinction_preservation:
+    source_policy_path: "/Users/jeyounson/GithubRepo/source-library/docs/source-translation-policy-2026-06-07.md"
+    local_policy_path: "editorial/korean_translation_policy.md"
+    rule: "Use the source-library Korean translation policy by default; preserve legal-philosophical source distinctions unless a recorded exception is approved."
 historical_issue_status:
   - proposed
   - source_map_ready

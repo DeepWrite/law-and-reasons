@@ -27,6 +27,8 @@ Applied topics such as AI and computational legal reasoning are admissible only 
 
 The 2025 English and Korean model issues are temporarily published for editorial calibration at `/historical/2025/` and `/historical/2025/ko/`.
 
+Korean translation follows the source-library translation policy by default. The local policy bridge is `editorial/korean_translation_policy.md`, which points to `/Users/jeyounson/GithubRepo/source-library/docs/source-translation-policy-2026-06-07.md`.
+
 ## Structure
 
 - `/issues/YYYY-QN/`: contemporary quarterly issue workspace

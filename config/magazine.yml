@@ -15,6 +15,10 @@ editorial_depth_policy:
   default_depth: top_tier_legal_philosophy_review
   center_of_gravity: "legal philosophy and legal theory"
   applied_topics_rule: "Include applied topics, including AI and computation, only when they bear directly on core jurisprudential questions and are visible in leading legal philosophy venues."
+korean_translation_policy:
+  local_policy_path: "editorial/korean_translation_policy.md"
+  source_library_policy_path: "/Users/jeyounson/GithubRepo/source-library/docs/source-translation-policy-2026-06-07.md"
+  principle: "Source-library distinction-preservation governs Korean translation unless a recorded exception is approved."
 contemporary_issue_scope:
   - Anglo-American analytic jurisprudence
   - legal positivism

@@ -31,6 +31,12 @@ Applied topics, including AI and computation, are admissible only when they are 
 
 Access levels and analysis levels must be stated. The magazine must not pretend to have read a work when only metadata, abstracts, tables of contents, or reviews are available. Full-text claims require full-text access. Book reviews and later historiography may help orient the field, but they must be marked as such and cannot replace direct engagement with the work under review.
 
+## Korean Translation Discipline
+
+Korean translation follows the source-library translation policy by default: `/Users/jeyounson/GithubRepo/source-library/docs/source-translation-policy-2026-06-07.md`. The local operating note is `editorial/korean_translation_policy.md`.
+
+The controlling rule is distinction preservation. Korean prose may be polished for readability, but it must not flatten source distinctions among reason/reasons/Reason, law/laws, source/foundation/ground/reference, obligation/duty/being obliged, validity/correctness/legitimacy/justification, Hartian acceptance, and interpretive-convergence uptake. Departures require a recorded reason.
+
 ## Historical Discipline
 
 Historical issues must avoid presentism. Time-situated analysis, retrospective editor's notes, and archival uncertainty must remain visibly separate. Later canonical status is not evidence of contemporary centrality unless contemporary reception supports that claim.

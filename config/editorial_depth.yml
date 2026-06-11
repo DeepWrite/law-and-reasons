@@ -52,3 +52,19 @@ publication_rule:
   model_issue_may_be_temporarily_approved: true
   permanent_publication_requires_chief_editor_approval: true
   korean_translation_requires_separate_approval: true
+korean_translation_policy:
+  status: active
+  governing_policy_path: "/Users/jeyounson/GithubRepo/source-library/docs/source-translation-policy-2026-06-07.md"
+  local_policy_path: "editorial/korean_translation_policy.md"
+  default_rule: "Preserve source distinctions in Korean unless a recorded source-level or issue-level reason justifies collapsing them."
+  regression_guards:
+    - "reason / reasons / Reason"
+    - "law / the law / a law / laws"
+    - "source / foundation / basis / ground / reference"
+    - "rule of recognition -> 승인 규칙"
+    - "internal point of view -> 내부적 관점"
+    - "legal validity -> 법적 유효성"
+    - "obligation / duty / being obliged -> 의무 / 책무 / 하지 않을 수 없음"
+    - "Hohfeldian or Hartian power -> 권한"
+    - "uptake -> 화행적수인; Hartian acceptance -> 수용"
+    - "correctness / rightness / validity / justification / legitimacy"
