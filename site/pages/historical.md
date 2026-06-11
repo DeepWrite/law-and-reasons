@@ -4,7 +4,7 @@ subtitle: "Retrospective legal philosophy and legal theory reviews reconstructed
 permalink: /historical/
 ---
 
-Historical issues are one track of 법과 이유 / Law and Reasons. Each historical issue is labeled by target year. Most issues remain in `proposed` status until source mapping, bibliography, full-text requests, drafting, translation, and publication are separately approved. Historical Issue: 2025 is temporarily public as a model issue.
+Historical issues are one track of 법과 이유 / Law and Reasons. Each historical issue is labeled by target year. Most issues remain in `proposed` status until source mapping, bibliography, private access reviews, drafting, translation, and publication are separately approved. Historical Issue: 2025 is temporarily public as a model issue.
 
 {% assign historical_issues = site.historical_issues | sort: "target_year" | reverse %}
 

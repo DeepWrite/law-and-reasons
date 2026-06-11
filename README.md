@@ -17,7 +17,7 @@ The historical back issues reconstruct the field as it could reasonably have app
 2. retrospective editor's notes
 3. archival uncertainty
 
-No issue, article note, translation, or public reconstruction is approved by default. The Chief Editor must approve source maps, coverage matrices, full-text requests, drafts, translations, and publication.
+No issue, article note, translation, or public reconstruction is approved by default. The Chief Editor must approve source maps, coverage matrices, private access reviews, drafts, translations, and publication.
 
 ## Editorial Depth Policy
 
@@ -27,7 +27,7 @@ Applied topics such as AI and computational legal reasoning are admissible only 
 
 The 2025 English and Korean model issues are temporarily published for editorial calibration at `/historical/2025/` and `/historical/2025/ko/`.
 
-Korean translation follows the source-library translation policy by default. The local policy bridge is `editorial/korean_translation_policy.md`, which points to `/Users/jeyounson/GithubRepo/source-library/docs/source-translation-policy-2026-06-07.md`.
+Korean translation follows the source-library translation policy by default. The public local policy bridge is `editorial/korean_translation_policy.md`; private source-library paths are not published.
 
 ## Structure
 
@@ -62,17 +62,19 @@ The generator creates source-map, bibliography, coverage-matrix, and full-text-r
 
 ## Source Access Rules
 
-Every historical article or book chapter must be marked with one access level:
+Every historical article or book chapter must be marked with one public access level:
 
 - `bibliographic_metadata_only`
 - `abstract_or_review_only`
 - `table_of_contents_only`
 - `open_access_full_text`
-- `chief_editor_supplied_full_text`
+- `private_access_status`
 - `library_access_required`
 - `unavailable`
 
 Every note must also state its analysis level. Do not pretend to have read a work when only metadata, abstracts, tables of contents, or reviews are available.
+
+Public files must not disclose whether the Chief Editor or any private library holds the full text of a specific work. Do not publish local filesystem paths, private source-library paths, or per-work source possession status. Use `private_access_status` in public files and keep actual holdings or acquisition status in a non-public editorial access log.
 
 ## Local Checks
 

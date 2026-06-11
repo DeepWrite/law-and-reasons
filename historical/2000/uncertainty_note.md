@@ -21,7 +21,7 @@ publish_requested: false
 
 - Do not bypass paywalls or restricted archives.
 - Mark `access_level` accurately.
-- Request Chief Editor-supplied files where needed.
+- Check private access status in the non-public editorial access log before making close full-text claims.
 
 ## Inference Limits
 

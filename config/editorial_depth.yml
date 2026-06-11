@@ -43,9 +43,11 @@ topic_priority:
     questions such as authority, reasons, interpretation, responsibility,
     legal content, legality, or rights.
 evidence_rules:
-  - "Prefer official journal pages, publisher pages, primary books, articles, and verified local author files."
+  - "Prefer official journal pages, publisher pages, primary books, articles, and author-provided bibliographic information approved for public disclosure."
   - "Do not claim full-text analysis where only metadata, abstracts, tables of contents, or reviews are available."
   - "Mark access level and analysis level for each work used in historical reconstruction."
+  - "Do not disclose in public files whether the Chief Editor or any private library holds a full-text source for a specific work."
+  - "Do not publish local filesystem paths, private source-library paths, or per-work source possession status."
   - "Separate time-situated claims from retrospective judgment."
   - "Treat recent works as evidence of current attention only when their venue, author, topic, or reception supports that inference."
 publication_rule:
@@ -54,7 +56,7 @@ publication_rule:
   korean_translation_requires_separate_approval: true
 korean_translation_policy:
   status: active
-  governing_policy_path: "/Users/jeyounson/GithubRepo/source-library/docs/source-translation-policy-2026-06-07.md"
+  governing_policy_ref: "source-library Korean translation policy"
   local_policy_path: "editorial/korean_translation_policy.md"
   default_rule: "Preserve source distinctions in Korean unless a recorded source-level or issue-level reason justifies collapsing them."
   regression_guards:

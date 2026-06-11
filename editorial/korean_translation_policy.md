@@ -1,6 +1,6 @@
 ---
 status: active
-source_policy: /Users/jeyounson/GithubRepo/source-library/docs/source-translation-policy-2026-06-07.md
+source_policy_ref: source-library Korean translation policy
 applies_to:
   - Korean issue translations
   - Korean model issues
@@ -11,7 +11,9 @@ applies_to:
 
 Law and Reasons adopts the source-library translation policy as its default Korean translation policy. The governing source is:
 
-- `/Users/jeyounson/GithubRepo/source-library/docs/source-translation-policy-2026-06-07.md`
+- the internal source-library Korean translation policy.
+
+Public Law and Reasons repository files should refer to the policy by name rather than publishing private local paths.
 
 The source-library policy is not merely a style preference. It is a term-discipline and argument-preservation rule. Korean translations should preserve distinctions made by the source text unless a documented source-level or issue-level reason justifies collapsing them.
 

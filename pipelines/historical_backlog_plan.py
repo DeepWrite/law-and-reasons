@@ -117,7 +117,7 @@ Alternative orders remain available if the Chief Editor chooses them:
 
 ## Rule
 
-Do not produce full historical issues in bulk. Move one issue at a time from source mapping to bibliography, coverage matrix, Chief Editor approval, full-text requests, field map, draft, translation, and publication.
+Do not produce full historical issues in bulk. Move one issue at a time from source mapping to bibliography, coverage matrix, Chief Editor approval, private access reviews, field map, draft, translation, and publication.
 """
 
 
@@ -147,7 +147,9 @@ updated: "{iso_today()}"
 
 # Historical Source Registry
 
-This registry identifies source families useful for reconstructing historical legal philosophy and legal theory. It does not assume full access to any paywalled archive. Every article or chapter must receive an `access_level` and `analysis_level` before it is used.
+This registry identifies source families useful for reconstructing historical legal philosophy and legal theory. It does not assume full access to any paywalled archive. Every article or chapter must receive a public `access_level` and `analysis_level` before it is used.
+
+Public registry files must not disclose whether the Chief Editor or any private library holds the full text of a specific work. Use `private_access_status` for non-public access information and keep actual holdings or acquisition status in a non-public editorial access log.
 
 ## Access Levels
 
@@ -155,7 +157,7 @@ This registry identifies source families useful for reconstructing historical le
 - `abstract_or_review_only`
 - `table_of_contents_only`
 - `open_access_full_text`
-- `chief_editor_supplied_full_text`
+- `private_access_status`
 - `library_access_required`
 - `unavailable`
 
@@ -175,7 +177,7 @@ This registry identifies source families useful for reconstructing historical le
 | Philosophy and jurisprudence journals | The American Journal of Jurisprudence, Oxford Journal of Legal Studies, Law and Philosophy, Legal Theory, Ratio Juris | library_access_required or open_access_full_text | Analytic jurisprudence, natural law, interpretivism, legal positivism | Some journals did not exist for early target years. Mark active-year status. |
 | German legal theory and public law journals | Archiv fuer Rechts- und Sozialphilosophie, Rechtstheorie, Der Staat, JuristenZeitung, Archiv des oeffentlichen Rechts | library_access_required | German legal philosophy, constitutional theory, public law theory | German terminology and reception history require cautious translation notes. |
 | European and international law journals | Common Market Law Review, European Law Journal, International and Comparative Law Quarterly, European Journal of International Law | library_access_required or open_access_full_text | European integration, constitutional pluralism, transnational law | Separate legal theory from doctrinal institutional reporting. |
-| Multidisciplinary archives | JSTOR, HeinOnline, Oxford Academic, Cambridge Core, SpringerLink, Wiley Online Library | library_access_required or abstract_or_review_only | Metadata, tables of contents, book reviews, full text where licensed | Do not bypass paywalls; request Chief Editor-supplied files when needed. |
+| Multidisciplinary archives | JSTOR, HeinOnline, Oxford Academic, Cambridge Core, SpringerLink, Wiley Online Library | library_access_required or abstract_or_review_only | Metadata, tables of contents, book reviews, full text where licensed | Do not bypass paywalls; coordinate private access status outside public files. |
 | Legal research platforms | Westlaw, Lexis, Beck-Online, Nomos eLibrary, Mohr Siebeck, De Gruyter | library_access_required | Law reviews, German and European monographs, commentaries, festschrifts | Access varies by institution and jurisdiction. |
 | Working paper repositories | SSRN and institutional repositories | open_access_full_text or bibliographic_metadata_only | Working papers, early online circulation, later version trails | Historically appropriate mainly for later target years; distinguish upload date from publication date. |
 | Bibliographic and citation databases | WorldCat, Library of Congress, Deutsche Nationalbibliothek, Google Scholar, Scopus, Web of Science | bibliographic_metadata_only | Publication facts, holdings, citation trails | Citation counts are retrospective and cannot prove target-year centrality. |

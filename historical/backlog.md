@@ -30,4 +30,4 @@ Alternative orders remain available if the Chief Editor chooses them:
 
 ## Rule
 
-Do not produce full historical issues in bulk. Move one issue at a time from source mapping to bibliography, coverage matrix, Chief Editor approval, full-text requests, field map, draft, translation, and publication.
+Do not produce full historical issues in bulk. Move one issue at a time from source mapping to bibliography, coverage matrix, Chief Editor approval, private access reviews, field map, draft, translation, and publication.

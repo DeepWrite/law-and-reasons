@@ -52,7 +52,7 @@ def test_historical_access_and_analysis_taxonomies_are_complete():
         "abstract_or_review_only",
         "table_of_contents_only",
         "open_access_full_text",
-        "chief_editor_supplied_full_text",
+        "private_access_status",
         "library_access_required",
         "unavailable",
     }.issubset(set(config["access_levels"]))

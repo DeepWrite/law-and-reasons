@@ -439,7 +439,7 @@ This section may use later sources. It must remain clearly separated from time-s
 
 - Do not bypass paywalls or restricted archives.
 - Mark `access_level` accurately.
-- Request Chief Editor-supplied files where needed.
+- Check private access status in the non-public editorial access log before making close full-text claims.
 
 ## Inference Limits
 
@@ -469,12 +469,12 @@ This section may use later sources. It must remain clearly separated from time-s
 - TODO.
 """,
         "full_text_requests.md": f"""{front}
-# Full-Text Requests: Historical Issue {target_year}
+# Private Access Coordination: Historical Issue {target_year}
 
-Use this file to request Chief Editor-supplied files or library access for important inaccessible works. Do not bypass paywalls or restricted archives.
+Use this public file to identify works needing private access review. Do not disclose per-work holdings, acquisition status, or local source locations. Do not bypass paywalls or restricted archives.
 
-| Work | Author | Year | Current access level | Needed for | Recommended action | Chief Editor response |
-| --- | --- | ---: | --- | --- | --- | --- |
+| Work | Author | Year | Needed for | Public access disclosure | Recommended action |
+| --- | --- | ---: | --- | --- | --- |
 """,
         "bibliography.bib": f"% Historical Issue {target_year}. Add only verified bibliographic records. Do not fabricate citations.\n",
     }
@@ -484,11 +484,11 @@ def readme_files(target_year: int) -> dict[str, str]:
     return {
         "source_dossiers/README.md": f"""# Source Dossiers: Historical Issue {target_year}
 
-Create one dossier per source, debate, or source cluster. Each dossier must state access level, analysis level, visibility at the time, and later significance only where retrospective framing is explicitly allowed.
+Create one dossier per source, debate, or source cluster. Each public dossier must state public access level, analysis level, visibility at the time, and later significance only where retrospective framing is explicitly allowed. Do not include private holdings, acquisition status, local source paths, or per-work source possession status.
 """,
         "drafts/README.md": f"""# Drafts: Historical Issue {target_year}
 
-Drafting must wait until the Chief Editor approves the source map, coverage matrix, and full-text request plan.
+Drafting must wait until the Chief Editor approves the source map, coverage matrix, and private access review plan.
 """,
         "final/en/README.md": f"""# Final English: Historical Issue {target_year}
 

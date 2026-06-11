@@ -28,9 +28,14 @@ languages:
     translation_policy: source_library_distinction_preservation
 translation_policies:
   source_library_distinction_preservation:
-    source_policy_path: "/Users/jeyounson/GithubRepo/source-library/docs/source-translation-policy-2026-06-07.md"
+    source_policy_ref: "source-library Korean translation policy"
     local_policy_path: "editorial/korean_translation_policy.md"
     rule: "Use the source-library Korean translation policy by default; preserve legal-philosophical source distinctions unless a recorded exception is approved."
+public_source_privacy:
+  disclose_chief_editor_holdings: false
+  disclose_local_source_paths: false
+  public_private_access_label: private_access_status
+  rule: "Public repository files must not reveal whether the Chief Editor or any private library holds a full-text source for a specific work. Track such information only in a non-public access log."
 historical_issue_status:
   - proposed
   - source_map_ready
@@ -43,7 +48,7 @@ access_levels:
   - abstract_or_review_only
   - table_of_contents_only
   - open_access_full_text
-  - chief_editor_supplied_full_text
+  - private_access_status
   - library_access_required
   - unavailable
 analysis_levels:
@@ -56,7 +61,7 @@ recommended_actions:
   - ignore
   - bibliographic mention
   - article note
-  - full-text request
+  - private access review
   - review essay candidate
   - top ten candidate
 coverage_domains:

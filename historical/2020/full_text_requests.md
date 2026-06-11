@@ -11,9 +11,9 @@ publication_model: human_approved
 publish_requested: false
 ---
 
-# Full-Text Requests: Historical Issue 2020
+# Private Access Coordination: Historical Issue 2020
 
-Use this file to request Chief Editor-supplied files or library access for important inaccessible works. Do not bypass paywalls or restricted archives.
+Use this public file to identify works needing private access review. Do not disclose per-work holdings, acquisition status, or local source locations. Do not bypass paywalls or restricted archives.
 
-| Work | Author | Year | Current access level | Needed for | Recommended action | Chief Editor response |
-| --- | --- | ---: | --- | --- | --- | --- |
+| Work | Author | Year | Needed for | Public access disclosure | Recommended action |
+| --- | --- | ---: | --- | --- | --- |

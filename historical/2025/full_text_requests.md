@@ -11,13 +11,13 @@ publication_model: human_approved
 publish_requested: true
 ---
 
-# Full-Text Requests: Historical Issue 2025
+# Private Access Coordination: Historical Issue 2025
 
-Use this file to request Chief Editor-supplied files or library access for important inaccessible works. Do not bypass paywalls or restricted archives.
+This public file identifies works whose final treatment requires access review. It must not disclose whether the Chief Editor or any private library holds the full text of a specific work. Actual holdings, acquisition status, and local source locations belong only in a non-public editorial access log. Do not bypass paywalls or restricted archives.
 
-| Work | Author | Year | Current access level | Needed for | Recommended action | Chief Editor response |
-| --- | --- | ---: | --- | --- | --- | --- |
-| *Legal Philosophy in the Twentieth Century: The Common Law World* | Gerald J. Postema | 2011 | chief_editor_supplied_full_text | full historical review essay standard | use source-library canonical reading surface and legacy references chapter tree | resolved |
-| *Law's Rule* | Gerald J. Postema | 2022 | abstract_or_review_only | rule-of-law section | chief_editor_supplied_full_text or library access | pending |
-| 2025 *Legal Theory* articles | multiple | 2025 | table_of_contents_only | article notes and final issue | library access required | pending |
-| 2025 *Law and Philosophy* paywalled articles | multiple | 2025 | abstract_or_review_only | article notes and final issue | library access required | pending |
+| Work | Author | Year | Needed for | Public access disclosure | Recommended action |
+| --- | --- | ---: | --- | --- | --- |
+| *Legal Philosophy in the Twentieth Century: The Common Law World* | Gerald J. Postema | 2011 | full historical review essay standard | private_access_status | check non-public editorial access log |
+| *Law's Rule* | Gerald J. Postema | 2022 | rule-of-law section | private_access_status | check non-public editorial access log |
+| 2025 *Legal Theory* articles | multiple | 2025 | article notes and final issue | private_access_status | check non-public editorial access log |
+| 2025 *Law and Philosophy* articles | multiple | 2025 | article notes and final issue | private_access_status | check non-public editorial access log |
