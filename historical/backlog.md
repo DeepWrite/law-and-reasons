@@ -1,6 +1,6 @@
 ---
 status: active
-updated: "2026-06-11"
+updated: "2026-06-12"
 production_order: reverse_chronological_reconstruction
 ---
 
@@ -14,7 +14,7 @@ Alternative orders remain available if the Chief Editor chooses them:
 - theme-first reconstruction
 - opportunistic reconstruction based on available sources
 
-| Target year | Order | Source mapping | Bibliography | Full-text requests | Field map | Translation | Publication | Chief Editor approval | Next action |
+| Target year | Order | Source mapping | Bibliography | Source review | Field map | Translation | Publication | Chief Editor approval | Next action |
 | ---: | ---: | --- | --- | --- | --- | --- | --- | --- | --- |
 | 2025 | 1 | scaffolded | scaffolded | scaffolded | scaffolded | not_started | not_started | proposed | Chief Editor review of source map and coverage priorities |
 | 2020 | 2 | scaffolded | scaffolded | scaffolded | scaffolded | not_started | not_started | proposed | Chief Editor review of source map and coverage priorities |
@@ -30,4 +30,4 @@ Alternative orders remain available if the Chief Editor chooses them:
 
 ## Rule
 
-Do not produce full historical issues in bulk. Move one issue at a time from source mapping to bibliography, coverage matrix, Chief Editor approval, private access reviews, field map, draft, translation, and publication.
+Do not produce full historical issues in bulk. Move one issue at a time from source mapping to bibliography, coverage matrix, Chief Editor approval, editorial source reviews, field map, draft, translation, and publication.

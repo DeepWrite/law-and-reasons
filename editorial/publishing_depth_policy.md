@@ -29,13 +29,13 @@ Applied topics, including AI and computation, are admissible only when they are 
 
 ## Source Discipline
 
-Access levels and analysis levels must be stated. The magazine must not pretend to have read a work when only metadata, abstracts, tables of contents, or reviews are available. Full-text claims require full-text access. Book reviews and later historiography may help orient the field, but they must be marked as such and cannot replace direct engagement with the work under review.
+Access levels and analysis levels must be stated. The magazine must not pretend to have read a work when only metadata, abstracts, tables of contents, or reviews are available. Claims requiring close textual engagement require verified source review. Book reviews and later historiography may help orient the field, but they must be marked as such and cannot replace direct engagement with the work under review.
 
-Public source discipline is also privacy discipline. Public repository files must not disclose whether the Chief Editor or any private library holds the full text of a specific work. They must not publish local filesystem paths, private source-library paths, or per-work source possession status. Use `private_access_status` in public materials and keep actual holdings or acquisition status in a non-public editorial access log.
+Public source discipline is also privacy discipline. Public repository files should say only what is needed for the public record: source type, public verification status, analysis level, and whether further editorial verification is needed. They must not publish filesystem paths or working notes.
 
 ## Korean Translation Discipline
 
-Korean translation follows the source-library translation policy by default. The public operating note is `editorial/korean_translation_policy.md`; private source-library paths are not published.
+Korean translation follows the internal Korean translation policy by default. The public operating note is `editorial/korean_translation_policy.md`.
 
 The controlling rule is distinction preservation. Korean prose may be polished for readability, but it must not flatten source distinctions among reason/reasons/Reason, law/laws, source/foundation/ground/reference, obligation/duty/being obliged, validity/correctness/legitimacy/justification, Hartian acceptance, and interpretive-convergence uptake. Departures require a recorded reason.
 

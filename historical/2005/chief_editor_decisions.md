@@ -34,7 +34,7 @@ Silence is not approval. Use `approve`, `revise`, `reject`, or `hold`.
 - Date:
 - Notes:
 
-## Full-Text Requests
+## Editorial Source Review
 
 - Decision: hold
 - Date:

@@ -15,31 +15,31 @@ publish_requested: true
 
 ## Coverage Rule
 
-Canonical books are used here as background for interpreting 2025 journal debates. The model issue does not claim fresh full-text review essays for every book listed.
+Canonical books are used here as background for interpreting 2025 journal debates. The model issue does not claim new close-review essays for every book listed.
 
 ## Monographs
 
 | Work | Author | Publisher | Year | Language | Access level | Visibility at the time | Action |
 | --- | --- | --- | ---: | --- | --- | --- | --- |
-| *The Concept of Law* | H. L. A. Hart | Oxford University Press | 1961/1994/2012 | en | private_access_status | canonical | top ten candidate |
-| *The Authority of Law* | Joseph Raz | Oxford University Press | 1979/2009 | en | private_access_status | canonical | top ten candidate |
-| *Law's Empire* | Ronald Dworkin | Harvard University Press | 1986 | en | private_access_status | canonical | top ten candidate |
-| *The Morality of Law* | Lon L. Fuller | Yale University Press | 1964/1969 | en | private_access_status | canonical | top ten candidate |
-| *Natural Law and Natural Rights* | John Finnis | Oxford University Press | 1980/2011 | en | private_access_status | canonical | top ten candidate |
-| *Legal Philosophy in the Twentieth Century: The Common Law World* | Gerald J. Postema | Springer | 2011 | en | private_access_status | major historiographical work | review essay candidate |
+| *The Concept of Law* | H. L. A. Hart | Oxford University Press | 1961/1994/2012 | en | editorial_review_required | canonical | top ten candidate |
+| *The Authority of Law* | Joseph Raz | Oxford University Press | 1979/2009 | en | editorial_review_required | canonical | top ten candidate |
+| *Law's Empire* | Ronald Dworkin | Harvard University Press | 1986 | en | editorial_review_required | canonical | top ten candidate |
+| *The Morality of Law* | Lon L. Fuller | Yale University Press | 1964/1969 | en | editorial_review_required | canonical | top ten candidate |
+| *Natural Law and Natural Rights* | John Finnis | Oxford University Press | 1980/2011 | en | editorial_review_required | canonical | top ten candidate |
+| *Legal Philosophy in the Twentieth Century: The Common Law World* | Gerald J. Postema | Springer | 2011 | en | editorial_review_required | major historiographical work | review essay candidate |
 | *Law's Rule* | Gerald J. Postema | Oxford University Press | 2022 | en | abstract_or_review_only | recent major rule-of-law theory | top ten candidate |
-| *A Theory of Constitutional Rights* | Robert Alexy | Oxford University Press | 2002 English translation | de/en | private_access_status | canonical in rights and proportionality theory | top ten candidate |
-| *Between Facts and Norms* | Jurgen Habermas | MIT Press | 1996 English translation | de/en | private_access_status | canonical in discourse and democratic legal theory | top ten candidate |
-| *Law as a Social System* | Niklas Luhmann | Oxford University Press | 2004 English translation | de/en | private_access_status | canonical in systems theory | top ten candidate |
+| *A Theory of Constitutional Rights* | Robert Alexy | Oxford University Press | 2002 English translation | de/en | editorial_review_required | canonical in rights and proportionality theory | top ten candidate |
+| *Between Facts and Norms* | Jurgen Habermas | MIT Press | 1996 English translation | de/en | editorial_review_required | canonical in discourse and democratic legal theory | top ten candidate |
+| *Law as a Social System* | Niklas Luhmann | Oxford University Press | 2004 English translation | de/en | editorial_review_required | canonical in systems theory | top ten candidate |
 
 ## Reviews to Locate Before Permanent Publication
 
 | Work | Likely review venue | Reason to seek review | Action |
 | --- | --- | --- | --- |
-| *Law's Rule* | OJLS, Modern Law Review, Law and Philosophy, NDPR | evaluate contemporary reception after 2022 | private access review |
+| *Law's Rule* | OJLS, Modern Law Review, Law and Philosophy, NDPR | evaluate contemporary reception after 2022 | editorial source review |
 | 2025 legal authority articles | Law and Philosophy review/citation databases | confirm reception and use beyond abstracts | article note |
-| Son 2025 interpretive convergence article | Korean legal philosophy databases and KCI | document Korean reception and access status | article note |
+| Son 2025 interpretive convergence article | Korean legal philosophy databases and KCI | document Korean reception and publication context | article note |
 
-## Public Source Privacy Note
+## Editorial Verification Note
 
-This public report does not disclose whether the Chief Editor or any private library holds the full text of a specific work. Works marked `private_access_status` require consultation of the non-public editorial access log before close textual analysis, quotation, or claims based on full-text review.
+This public report records works for editorial orientation only. Permanent publication requires source review before close textual analysis, quotation, or final bibliographic treatment.

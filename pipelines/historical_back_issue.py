@@ -150,7 +150,7 @@ def write_csv(path: Path, fields: list[str], rows: list[dict[str, Any]] | None =
         return False
     ensure_dir(path.parent)
     with path.open("w", encoding="utf-8", newline="") as handle:
-        writer = csv.DictWriter(handle, fieldnames=fields)
+        writer = csv.DictWriter(handle, fieldnames=fields, lineterminator="\n")
         writer.writeheader()
         for row in rows or []:
             writer.writerow(row)
@@ -257,7 +257,7 @@ Silence is not approval. Use `approve`, `revise`, `reject`, or `hold`.
 - Date:
 - Notes:
 
-## Full-Text Requests
+## Editorial Source Review
 
 - Decision: hold
 - Date:
@@ -433,13 +433,13 @@ This section may use later sources. It must remain clearly separated from time-s
 
 ## Source Limits
 
-- TODO: missing full text, incomplete metadata, inaccessible archives, translation gaps.
+- TODO: incomplete metadata, inaccessible archives, translation gaps, source verification gaps.
 
-## Paywalled Or Restricted Sources
+## Restricted Or Incomplete Sources
 
-- Do not bypass paywalls or restricted archives.
+- Respect restricted archives, licenses, and platform terms.
 - Mark `access_level` accurately.
-- Check private access status in the non-public editorial access log before making close full-text claims.
+- State public evidentiary limits without recording filesystem paths or working notes.
 
 ## Inference Limits
 
@@ -468,12 +468,12 @@ This section may use later sources. It must remain clearly separated from time-s
 
 - TODO.
 """,
-        "full_text_requests.md": f"""{front}
-# Private Access Coordination: Historical Issue {target_year}
+        "source_review.md": f"""{front}
+# Editorial Source Review: Historical Issue {target_year}
 
-Use this public file to identify works needing private access review. Do not disclose per-work holdings, acquisition status, or local source locations. Do not bypass paywalls or restricted archives.
+Use this public file to identify works needing editorial source review before final drafting. Do not include filesystem paths or working notes. Respect restricted archives, licenses, and platform terms.
 
-| Work | Author | Year | Needed for | Public access disclosure | Recommended action |
+| Work | Author | Year | Needed for | Public note | Recommended action |
 | --- | --- | ---: | --- | --- | --- |
 """,
         "bibliography.bib": f"% Historical Issue {target_year}. Add only verified bibliographic records. Do not fabricate citations.\n",
@@ -484,11 +484,11 @@ def readme_files(target_year: int) -> dict[str, str]:
     return {
         "source_dossiers/README.md": f"""# Source Dossiers: Historical Issue {target_year}
 
-Create one dossier per source, debate, or source cluster. Each public dossier must state public access level, analysis level, visibility at the time, and later significance only where retrospective framing is explicitly allowed. Do not include private holdings, acquisition status, local source paths, or per-work source possession status.
+Create one dossier per source, debate, or source cluster. Each public dossier must state public access level, analysis level, visibility at the time, and later significance only where retrospective framing is explicitly allowed. Do not include filesystem paths or working notes.
 """,
         "drafts/README.md": f"""# Drafts: Historical Issue {target_year}
 
-Drafting must wait until the Chief Editor approves the source map, coverage matrix, and private access review plan.
+Drafting must wait until the Chief Editor approves the source map, coverage matrix, and editorial source review plan.
 """,
         "final/en/README.md": f"""# Final English: Historical Issue {target_year}
 

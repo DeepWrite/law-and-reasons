@@ -15,13 +15,13 @@ publish_requested: false
 
 ## Source Limits
 
-- TODO: missing full text, incomplete metadata, inaccessible archives, translation gaps.
+- TODO: incomplete metadata, inaccessible archives, translation gaps, source verification gaps.
 
-## Paywalled Or Restricted Sources
+## Restricted Or Incomplete Sources
 
-- Do not bypass paywalls or restricted archives.
+- Respect restricted archives, licenses, and platform terms.
 - Mark `access_level` accurately.
-- Check private access status in the non-public editorial access log before making close full-text claims.
+- State public evidentiary limits without recording filesystem paths or working notes.
 
 ## Inference Limits
 

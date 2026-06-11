@@ -1,6 +1,6 @@
 ---
 status: active
-source_policy_ref: source-library Korean translation policy
+source_policy_ref: internal Korean translation policy
 applies_to:
   - Korean issue translations
   - Korean model issues
@@ -9,13 +9,13 @@ applies_to:
 
 # Korean Translation Policy
 
-Law and Reasons adopts the source-library translation policy as its default Korean translation policy. The governing source is:
+Law and Reasons adopts the internal Korean translation policy as its default Korean translation policy. The governing source is:
 
-- the internal source-library Korean translation policy.
+- the internal internal Korean translation policy.
 
-Public Law and Reasons repository files should refer to the policy by name rather than publishing private local paths.
+Public Law and Reasons repository files should refer to the policy by name rather than publishing local working paths.
 
-The source-library policy is not merely a style preference. It is a term-discipline and argument-preservation rule. Korean translations should preserve distinctions made by the source text unless a documented source-level or issue-level reason justifies collapsing them.
+The internal translation policy is not merely a style preference. It is a term-discipline and argument-preservation rule. Korean translations should preserve distinctions made by the source text unless a documented source-level or issue-level reason justifies collapsing them.
 
 ## Core Rule
 
@@ -42,4 +42,4 @@ Law and Reasons may polish Korean prose for readability, but readability cannot 
 
 ## Current Model Issue Note
 
-The 2025 Korean model issue has been revised under this policy. It remains temporarily approved rather than final; permanent publication requires a separate translation review against source-library term memory.
+The 2025 Korean model issue has been revised under this policy. It remains temporarily approved rather than final; permanent publication requires a separate translation review against internal translation term memory.

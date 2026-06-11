@@ -21,5 +21,5 @@ Historical issues must avoid presentism. The editorial team should not write as 
 - Add a visibility-at-the-time note for every major work.
 - Separate time-situated analysis from retrospective notes.
 - Mark source access honestly.
-- Request full text when a source is important but inaccessible.
+- Route important sources with incomplete verification to editorial source review.
 - Keep archival uncertainty visible.

@@ -17,16 +17,16 @@ These are not the ten newest works of 2025. They are the ten works a serious rea
 
 | Rank | Work | Author | Year | Language | Access level | Visibility at the time | Why a serious reader in 2025 would read it |
 | ---: | --- | --- | ---: | --- | --- | --- | --- |
-| 1 | *The Concept of Law* | H. L. A. Hart | 1961/1994/2012 | en | private_access_status | canonical | rule of recognition, internal point of view, open texture |
-| 2 | *The Authority of Law* | Joseph Raz | 1979/2009 | en | private_access_status | canonical | authority, exclusionary reasons, legal positivism |
-| 3 | *Law's Empire* | Ronald Dworkin | 1986 | en | private_access_status | canonical | fit, justification, law as integrity |
-| 4 | *The Morality of Law* | Lon L. Fuller | 1964/1969 | en | private_access_status | canonical | legality, fidelity, rule-governed governance |
-| 5 | *Natural Law and Natural Rights* | John Finnis | 1980/2011 | en | private_access_status | canonical | practical reasonableness, common good, authority |
-| 6 | *Legal Philosophy in the Twentieth Century* | Gerald J. Postema | 2011 | en | private_access_status | canonical historiography | Holmes-Hart arc and common-law jurisprudence context |
+| 1 | *The Concept of Law* | H. L. A. Hart | 1961/1994/2012 | en | editorial_review_required | canonical | rule of recognition, internal point of view, open texture |
+| 2 | *The Authority of Law* | Joseph Raz | 1979/2009 | en | editorial_review_required | canonical | authority, exclusionary reasons, legal positivism |
+| 3 | *Law's Empire* | Ronald Dworkin | 1986 | en | editorial_review_required | canonical | fit, justification, law as integrity |
+| 4 | *The Morality of Law* | Lon L. Fuller | 1964/1969 | en | editorial_review_required | canonical | legality, fidelity, rule-governed governance |
+| 5 | *Natural Law and Natural Rights* | John Finnis | 1980/2011 | en | editorial_review_required | canonical | practical reasonableness, common good, authority |
+| 6 | *Legal Philosophy in the Twentieth Century* | Gerald J. Postema | 2011 | en | editorial_review_required | canonical historiography | Holmes-Hart arc and common-law jurisprudence context |
 | 7 | *Law's Rule* | Gerald J. Postema | 2022 | en | abstract_or_review_only | recent major work | rule of law as mutual accountability |
-| 8 | *A Theory of Constitutional Rights* | Robert Alexy | 1985/2002 | de/en | private_access_status | canonical in constitutional theory | principles, proportionality, rights |
-| 9 | *Between Facts and Norms* | Jurgen Habermas | 1992/1996 | de/en | private_access_status | canonical in discourse theory | legitimacy, democracy, public/private autonomy |
-| 10 | *Law as a Social System* | Niklas Luhmann | 1993/2004 | de/en | private_access_status | canonical in systems theory | law's autonomy and legal communication |
+| 8 | *A Theory of Constitutional Rights* | Robert Alexy | 1985/2002 | de/en | editorial_review_required | canonical in constitutional theory | principles, proportionality, rights |
+| 9 | *Between Facts and Norms* | Jurgen Habermas | 1992/1996 | de/en | editorial_review_required | canonical in discourse theory | legitimacy, democracy, public/private autonomy |
+| 10 | *Law as a Social System* | Niklas Luhmann | 1993/2004 | de/en | editorial_review_required | canonical in systems theory | law's autonomy and legal communication |
 
 ## 2025 Dossier to Read Alongside the Ten
 
