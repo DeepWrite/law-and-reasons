@@ -1,0 +1,22 @@
+issue: "YYYY-QN"
+theme:
+  status: proposed
+  title: "TODO: Chief Editor approval required"
+  rationale: "TODO"
+required_sections:
+  - editor's note
+  - field review
+  - debate map
+  - review essay
+  - article notes
+  - annotated bibliography
+  - teaching note
+approval_checkpoints:
+  - quarterly_theme
+  - final_table_of_contents
+  - commissioned_article_list
+  - article_central_thesis
+  - source_dossier
+  - final_english_version
+  - final_korean_version
+  - publication_merge

@@ -1,0 +1,59 @@
+title: "법과 이유"
+title_en: "Law and Reasons"
+subtitle: "A Review of Legal Philosophy and Legal Theory"
+subtitle_ko: "법철학·법이론 리뷰"
+chief_editor: "Jeyoun Son"
+chief_editor_ko: "손제연"
+cadence: quarterly
+primary_language: English
+secondary_language: Korean
+bilingual_mode: parallel
+publication_model: human_approved
+editorial_depth_policy:
+  config_path: "config/editorial_depth.yml"
+  human_readable_path: "editorial/publishing_depth_policy.md"
+  default_depth: top_tier_legal_philosophy_review
+  center_of_gravity: "legal philosophy and legal theory"
+  applied_topics_rule: "Include applied topics, including AI and computation, only when they bear directly on core jurisprudential questions and are visible in leading legal philosophy venues."
+contemporary_issue_scope:
+  - Anglo-American analytic jurisprudence
+  - legal positivism
+  - natural law theory
+  - Dworkinian interpretivism
+  - legal realism and critical legal studies
+  - German legal philosophy and public law theory
+  - European constitutional theory
+  - discourse theory
+  - systems theory
+  - rights theory
+  - rule of law
+  - constitutional adjudication
+  - legal reasoning
+  - punishment and responsibility
+  - private law theory
+  - international and transnational legal theory
+  - legal pluralism
+  - feminist jurisprudence
+  - critical race theory and law
+  - law and political economy
+  - AI, computation, and legal reasoning
+approval_sequence:
+  - proposed
+  - commissioned
+  - approved_for_draft
+  - approved_for_review
+  - approved_for_translation
+  - approved_for_publication
+publish_requirements:
+  chief_editor_status: approved_for_publication
+  status: published
+  citation_status: checked
+  evidence_level_required: true
+  translation_status_if_applicable: checked
+authorship_model:
+  default_author_en: "Law and Reasons Editorial Desk"
+  default_author_ko: "법과 이유 편집실"
+  ai_credit_en: "Prepared with Codex editorial agents under human editorial direction."
+  ai_credit_ko: "Codex 편집 에이전트의 도움을 받아 작성되었습니다."
+  responsibility_en: "Reviewed and approved for publication by Jeyoun Son (손제연)."
+  responsibility_ko: "손제연 책임편집자의 검토와 발행 승인을 거칩니다."

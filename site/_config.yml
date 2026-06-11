@@ -1,0 +1,39 @@
+title: "법과 이유"
+description: "A Review of Legal Philosophy and Legal Theory"
+url: ""
+baseurl: ""
+timezone: "Asia/Seoul"
+lang: "en"
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+  footnote_backlink: "&#8617;"
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+collections:
+  historical_issues:
+    output: true
+    permalink: /historical/:name/
+
+defaults:
+  - scope:
+      path: ""
+      type: historical_issues
+    values:
+      layout: historical_issue
+  - scope:
+      path: ""
+    values:
+      layout: page
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor

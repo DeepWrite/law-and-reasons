@@ -1,0 +1,11 @@
+<header class="site-header">
+  <a class="masthead" href="{{ '/' | relative_url }}" aria-label="{{ site.title }} home">
+    <span class="masthead-title">법과 이유</span>
+    <span class="masthead-subtitle">Law and Reasons / A Review of Legal Philosophy and Legal Theory / 법철학·법이론 리뷰</span>
+  </a>
+  <nav class="site-nav" aria-label="Primary navigation">
+    {% for item in site.data.navigation.primary %}
+      <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
+    {% endfor %}
+  </nav>
+</header>

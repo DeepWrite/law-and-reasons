@@ -1,0 +1,16 @@
+primary:
+  - title: Current Issue
+    url: /current/
+  - title: Historical Issues
+    url: /historical/
+  - title: Archive
+    url: /archive/
+  - title: Method
+    url: /method/
+  - title: Source Policy
+    url: /source-policy/
+secondary:
+  - title: English
+    url: /en/
+  - title: Korean
+    url: /ko/

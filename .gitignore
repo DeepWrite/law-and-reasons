@@ -1,0 +1,15 @@
+.bundle/
+.github/workflows/
+.jekyll-cache/
+.sass-cache/
+site/.jekyll-cache/
+site/.sass-cache/
+site/_site/
+vendor/bundle/
+__pycache__/
+*.pyc
+.DS_Store
+.env
+.env.*
+!.env.example
+.venv/

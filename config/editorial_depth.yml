@@ -1,0 +1,54 @@
+name: "Law and Reasons editorial depth policy"
+status: active
+scope:
+  - contemporary_quarterly_issues
+  - historical_back_issues
+  - model_issues
+default_depth: top_tier_legal_philosophy_review
+chief_editor: "Jeyoun Son"
+core_standard:
+  description: >
+    Articles must aim at the analytical depth expected in leading Anglophone
+    legal philosophy and legal theory reviews. They should be grounded in
+    primary sources, current journal coverage, and historically responsible
+    reconstruction rather than prompt-level summary.
+  required_contexts:
+    - "Representative work in leading jurisprudence journals, including Law and Philosophy, Legal Theory, Oxford Journal of Legal Studies, Jurisprudence, Ratio Juris, Canadian Journal of Law and Jurisprudence, and adjacent top generalist law reviews when the topic is jurisprudential."
+    - "Canonical books and articles by representative legal philosophers in the relevant subfield."
+    - "Gerald J. Postema-style contextual reconstruction of twentieth-century common-law jurisprudence where historically relevant."
+    - "Stanford Encyclopedia of Philosophy-level field mapping for basic terrain, with primary literature doing the argumentative work."
+    - "Chief Editor publications where they are directly relevant to the issue's jurisprudential question."
+topic_priority:
+  primary:
+    - legal philosophy
+    - legal theory
+    - analytic jurisprudence
+    - legal positivism after Hart
+    - authority and reasons
+    - interpretivism
+    - natural law theory
+    - rule of law
+    - rights theory
+    - legal reasoning
+    - German and European legal theory
+  admissible_when_jurisprudential:
+    - AI, computation, and legal reasoning
+    - empirical jurisprudence
+    - platform governance
+    - transnational legality
+  exclusion_rule: >
+    Do not exclude an applied or technological topic merely because it is
+    contemporary. Include it only when leading legal philosophers or top-tier
+    legal philosophy journals treat it as bearing on core jurisprudential
+    questions such as authority, reasons, interpretation, responsibility,
+    legal content, legality, or rights.
+evidence_rules:
+  - "Prefer official journal pages, publisher pages, primary books, articles, and verified local author files."
+  - "Do not claim full-text analysis where only metadata, abstracts, tables of contents, or reviews are available."
+  - "Mark access level and analysis level for each work used in historical reconstruction."
+  - "Separate time-situated claims from retrospective judgment."
+  - "Treat recent works as evidence of current attention only when their venue, author, topic, or reception supports that inference."
+publication_rule:
+  model_issue_may_be_temporarily_approved: true
+  permanent_publication_requires_chief_editor_approval: true
+  korean_translation_requires_separate_approval: true

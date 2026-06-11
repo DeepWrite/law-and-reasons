@@ -1,0 +1,118 @@
+start_year: 1975
+interval_years: 5
+target_years:
+  - 1975
+  - 1980
+  - 1985
+  - 1990
+  - 1995
+  - 2000
+  - 2005
+  - 2010
+  - 2015
+  - 2020
+  - 2025
+mode: retrospective_scholarly_with_time_situated_sections
+default_production_order: reverse_chronological_reconstruction
+alternative_production_orders:
+  - chronological_reconstruction
+  - theme_first_reconstruction
+  - opportunistic_reconstruction_based_on_available_sources
+languages:
+  en:
+    approval_required: true
+    publication_model: human_approved
+  ko:
+    approval_required: true
+    publication_model: human_approved
+historical_issue_status:
+  - proposed
+  - source_map_ready
+  - approved_for_reconstruction
+  - approved_for_draft
+  - approved_for_translation
+  - approved_for_publication
+access_levels:
+  - bibliographic_metadata_only
+  - abstract_or_review_only
+  - table_of_contents_only
+  - open_access_full_text
+  - chief_editor_supplied_full_text
+  - library_access_required
+  - unavailable
+analysis_levels:
+  - bibliographic_notice
+  - abstract_or_review_based_note
+  - full_text_article_note
+  - full_text_review_essay
+  - retrospective_contextual_note
+recommended_actions:
+  - ignore
+  - bibliographic mention
+  - article note
+  - full-text request
+  - review essay candidate
+  - top ten candidate
+coverage_domains:
+  - Anglo-American analytic jurisprudence
+  - legal positivism after Hart
+  - natural law theory
+  - Dworkinian interpretivism
+  - legal realism and critical legal studies
+  - German legal philosophy and public law theory
+  - European constitutional theory
+  - discourse theory
+  - systems theory
+  - rights theory
+  - rule of law
+  - constitutional adjudication
+  - legal reasoning
+  - punishment and responsibility
+  - private law theory
+  - international and transnational legal theory
+  - legal pluralism
+  - feminist jurisprudence
+  - critical race theory and law
+  - law and political economy
+  - AI, computation, and legal reasoning
+issue_sections:
+  - Historical Editor's Note
+  - Field Map of the Year
+  - Journal and Book Coverage Report
+  - Ten Works to Read in That Year
+  - Debate Map
+  - Anglo-American Jurisprudence
+  - European Legal Theory
+  - German Legal Philosophy / Public Law Theory
+  - Concepts Under Pressure
+  - Retrospective Note from the Present
+  - Annotated Bibliography
+  - Teaching Note
+  - What Would Have Been Worth Watching Next?
+historical_rules:
+  - "Do not pretend to have read historical works when only bibliographic metadata is available."
+  - "Do not infer detailed arguments from titles alone."
+  - "Use book reviews and later literature cautiously."
+  - "Distinguish contemporary reception from later canonical status."
+  - "Avoid presentism."
+  - "Avoid treating later-famous works as obviously central at the time unless evidence shows contemporary reception."
+  - "Include a visibility-at-the-time note for major works."
+  - "Include later significance only in clearly marked retrospective sections."
+workflow_stages:
+  - historical_source_mapping
+  - historical_bibliography
+  - coverage_matrix
+  - chief_editor_source_approval
+  - full_text_request
+  - historical_field_map
+  - debate_maps
+  - draft_historical_issue
+  - retrospective_note
+  - publication
+publication:
+  publish_default: false
+  chief_editor_approval_required: true
+  default_language_order:
+    - en
+    - ko
+  stop_before_drafting_unless_approved: true
