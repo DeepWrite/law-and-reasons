@@ -22,7 +22,7 @@ These are not the ten newest works of 2025. They are the ten works a serious rea
 | 3 | *Law's Empire* | Ronald Dworkin | 1986 | en | library_access_required | canonical | fit, justification, law as integrity |
 | 4 | *The Morality of Law* | Lon L. Fuller | 1964/1969 | en | library_access_required | canonical | legality, fidelity, rule-governed governance |
 | 5 | *Natural Law and Natural Rights* | John Finnis | 1980/2011 | en | library_access_required | canonical | practical reasonableness, common good, authority |
-| 6 | *Legal Philosophy in the Twentieth Century* | Gerald J. Postema | 2011 | en | table_of_contents_only | canonical historiography | Holmes-Hart arc and common-law jurisprudence context |
+| 6 | *Legal Philosophy in the Twentieth Century* | Gerald J. Postema | 2011 | en | chief_editor_supplied_full_text | canonical historiography | Holmes-Hart arc and common-law jurisprudence context |
 | 7 | *Law's Rule* | Gerald J. Postema | 2022 | en | abstract_or_review_only | recent major work | rule of law as mutual accountability |
 | 8 | *A Theory of Constitutional Rights* | Robert Alexy | 1985/2002 | de/en | library_access_required | canonical in constitutional theory | principles, proportionality, rights |
 | 9 | *Between Facts and Norms* | Jurgen Habermas | 1992/1996 | de/en | library_access_required | canonical in discourse theory | legitimacy, democracy, public/private autonomy |

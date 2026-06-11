@@ -17,7 +17,7 @@ Use this file to request Chief Editor-supplied files or library access for impor
 
 | Work | Author | Year | Current access level | Needed for | Recommended action | Chief Editor response |
 | --- | --- | ---: | --- | --- | --- | --- |
-| *Legal Philosophy in the Twentieth Century: The Common Law World* | Gerald J. Postema | 2011 | table_of_contents_only | full historical review essay standard | chief_editor_supplied_full_text or library access | pending |
+| *Legal Philosophy in the Twentieth Century: The Common Law World* | Gerald J. Postema | 2011 | chief_editor_supplied_full_text | full historical review essay standard | use source-library canonical reading surface and legacy references chapter tree | resolved |
 | *Law's Rule* | Gerald J. Postema | 2022 | abstract_or_review_only | rule-of-law section | chief_editor_supplied_full_text or library access | pending |
 | 2025 *Legal Theory* articles | multiple | 2025 | table_of_contents_only | article notes and final issue | library access required | pending |
 | 2025 *Law and Philosophy* paywalled articles | multiple | 2025 | abstract_or_review_only | article notes and final issue | library access required | pending |
