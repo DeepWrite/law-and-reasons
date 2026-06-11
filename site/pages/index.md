@@ -11,6 +11,7 @@ The magazine has a contemporary quarterly review and a historical back-issue pro
 
 <p>
   <a class="button primary" href="{{ '/historical/2025/' | relative_url }}">Read the 2025 Model Issue</a>
+  <a class="button secondary" href="{{ '/historical/2025/ko/' | relative_url }}">2025 한국어판</a>
   <a class="button secondary" href="{{ '/historical/' | relative_url }}">Historical Issues</a>
 </p>
 

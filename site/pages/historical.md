@@ -10,6 +10,7 @@ Historical issues are one track of 법과 이유 / Law and Reasons. Each histori
 
 <div class="historical-list">
 {% for issue in historical_issues %}
+  {% unless issue.listed == false %}
   <article class="historical-list-item">
     <a href="{{ issue.url | relative_url }}">
       <span>{{ issue.historical_status }}</span>
@@ -17,5 +18,6 @@ Historical issues are one track of 법과 이유 / Law and Reasons. Each histori
       <p>{{ issue.coverage_note }}</p>
     </a>
   </article>
+  {% endunless %}
 {% endfor %}
 </div>

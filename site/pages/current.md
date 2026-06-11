@@ -10,6 +10,7 @@ For editorial calibration, see the temporarily approved model issue:
 
 <p>
   <a class="button primary" href="{{ '/historical/2025/' | relative_url }}">Historical Issue: 2025</a>
+  <a class="button secondary" href="{{ '/historical/2025/ko/' | relative_url }}">2025 한국어판</a>
 </p>
 
 Issue files live under `/issues/YYYY-QN/` after running:

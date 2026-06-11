@@ -25,6 +25,8 @@ The review's standing policy is recorded in `config/editorial_depth.yml` and `ed
 
 Applied topics such as AI and computational legal reasoning are admissible only when they bear on core jurisprudential questions and are visible in serious legal philosophy venues. They do not replace the magazine's center of gravity: legal philosophy and legal theory.
 
+The 2025 English and Korean model issues are temporarily published for editorial calibration at `/historical/2025/` and `/historical/2025/ko/`.
+
 ## Structure
 
 - `/issues/YYYY-QN/`: contemporary quarterly issue workspace

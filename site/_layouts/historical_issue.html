@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<article class="page-shell historical-issue-shell">
+<article class="page-shell historical-issue-shell{% if page.language == 'ko' %} ko-article{% endif %}">
   <header class="page-header">
     <p class="issue-label">Historical back-issue program</p>
     <h1>{{ page.title }}</h1>
@@ -33,6 +33,9 @@ layout: default
     <a href="#debate-map">Debate map</a>
     <a href="#article-notes">Article notes</a>
     <a href="#bibliography">Bibliography</a>
+    {% if page.alternate_language_url %}
+      <a href="{{ page.alternate_language_url | relative_url }}">{{ page.alternate_language_label | default: "Alternate language" }}</a>
+    {% endif %}
   </nav>
 
   <section class="historical-notice">
@@ -40,7 +43,7 @@ layout: default
     <p>{{ page.coverage_note }}</p>
     <p>{{ page.uncertainty_note }}</p>
     {% if page.temporary_approval %}
-      <p><strong>Temporary model approval:</strong> this page is public as a model issue for editorial review. Permanent publication, Korean translation, and issue finalization still require separate Chief Editor approval.</p>
+      <p><strong>Temporary model approval:</strong> this page is public as a model issue for editorial review. Permanent publication and issue finalization still require separate Chief Editor approval.</p>
     {% else %}
       <p>Time-situated analysis and retrospective notes must remain visibly separate. No reconstructed issue text is public until the Chief Editor approves publication.</p>
     {% endif %}
@@ -50,10 +53,12 @@ layout: default
     <div id="english">
       <h2>English</h2>
       <p>{{ page.english_status | default: "English reconstruction is the default first drafting language. Drafting waits for source approval." }}</p>
+      {% if page.english_url %}<p><a href="{{ page.english_url | relative_url }}">English page</a></p>{% endif %}
     </div>
     <div id="korean">
       <h2>한국어</h2>
       <p>{{ page.korean_status | default: "한국어판은 영어판 승인 이후 번역 승인을 받아 진행한다. 편집장의 별도 지시가 있으면 Korean-first production으로 전환할 수 있다." }}</p>
+      {% if page.korean_url %}<p><a href="{{ page.korean_url | relative_url }}">한국어판</a></p>{% endif %}
     </div>
   </section>
 

@@ -17,14 +17,19 @@ publish_requested: true
 
 The user requested one current or historical issue to be temporarily approved and published to DeepWrite Pages as a model issue. The selected issue is Historical Issue: 2025.
 
+## Temporary Korean Model Approval
+
+The user subsequently requested that the Korean version also proceed and be temporarily approved for publication. The Korean model issue is approved for temporary public demonstration at `/historical/2025/ko/`.
+
 ## Editorial Direction Applied
 
 - The center is orthodox legal philosophy and legal theory.
 - AI is not the frame. It is included only where leading legal philosophy venues treat it as a jurisprudential pressure point.
 - The standing depth policy is recorded in `config/editorial_depth.yml` and `editorial/publishing_depth_policy.md`.
+- The Korean version preserves the English model issue's source discipline, access-level caveats, and orthodox legal-philosophy center.
 
 ## Still Required
 
 - Permanent approval for the final 2025 issue.
 - Full source-map approval.
-- Korean translation approval.
+- Final Korean translation approval.
