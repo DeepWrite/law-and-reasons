@@ -32,6 +32,12 @@ The user instructed that Korean translation should adopt the internal Korean tra
 - The standing depth policy is recorded in `config/editorial_depth.yml` and `editorial/publishing_depth_policy.md`.
 - The Korean version preserves the English model issue's source discipline, access-level caveats, orthodox legal-philosophy center, and the internal Korean translation policy's distinction-preserving term discipline.
 
+## Editorial-Agent Structure Repair
+
+The June 13 review found that the public 2025 model issue had a serious but narrower version of the DeepWrite Review failure mode: the issue had temporary approval and a strong legal-philosophy frame, but it did not record which editorial role was responsible for each public section. That allowed the table of contents to behave like a generic historical-issue scaffold rather than a section-by-section legal-philosophy reconstruction.
+
+The repair records `body_generation: agent_structured_historical_model`, adds assigned editorial roles to the English and Korean public copies, renders an editorial-agent register in both languages, and adds regression tests requiring section-level role maps for any public temporary historical model issue.
+
 ## Still Required
 
 - Permanent approval for the final 2025 issue.

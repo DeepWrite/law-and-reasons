@@ -15,6 +15,19 @@ editorial_depth_policy:
   default_depth: top_tier_legal_philosophy_review
   center_of_gravity: "legal philosophy and legal theory"
   applied_topics_rule: "Include applied topics, including AI and computation, only when they bear directly on core jurisprudential questions and are visible in leading legal philosophy venues."
+historical_editorial_agent_policy:
+  body_generation: agent_structured_historical_model
+  principle: "Public historical model issues must record section-level editorial responsibility so source registers, field maps, debate maps, bibliographies, retrospective notes, and teaching notes do not collapse into a generic scaffold."
+  required_roles:
+    - Historical Jurisprudence Editor
+    - Source Coverage Editor
+    - Bibliography Editor
+    - Debate Map Editor
+    - Legal Philosophy Editor
+    - Retrospective Editor
+    - Teaching Editor
+    - Privacy Reviewer
+    - Final Managing Editor
 korean_translation_policy:
   local_policy_path: "editorial/korean_translation_policy.md"
   style_guide_path: "editorial/style_guide_ko.md"

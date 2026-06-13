@@ -45,6 +45,14 @@ Korean translation is evaluated on two independent dimensions. Both must pass be
 
 Historical issues must avoid presentism. Time-situated analysis, retrospective editor's notes, and archival uncertainty must remain visibly separate. Later canonical status is not evidence of contemporary centrality unless contemporary reception supports that claim.
 
+## Historical Editorial-Agent Discipline
+
+Historical model issues must not be maintained as generic table-of-contents scaffolds. Each public model issue must record section-level editorial responsibility in front matter and, where the issue itself is public, in a reader-facing editorial-agent register.
+
+The minimum role map is: historical jurisprudence editor, source coverage editor, bibliography editor, debate map editor, legal philosophy editor, retrospective editor, teaching editor, privacy reviewer, and final managing editor. These roles may be combined for a small model issue, but the issue must still state which role is responsible for each public section.
+
+The role map is a publication gate, not decoration. The source register belongs to source coverage and privacy review; the field map belongs to a time-situated historical editor; journal and book coverage belongs to source and bibliography review; debate and concept sections belong to legal-philosophy review; retrospective sections must be explicitly marked as retrospective; teaching notes must preserve jurisprudential distinctions rather than turning the issue into a generic syllabus.
+
 ## Publication Discipline
 
 A model issue may be temporarily approved to demonstrate editorial direction. Permanent publication, Korean translation, and issue finalization require separate Chief Editor approval.
