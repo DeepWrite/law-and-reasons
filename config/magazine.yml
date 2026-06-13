@@ -17,8 +17,9 @@ editorial_depth_policy:
   applied_topics_rule: "Include applied topics, including AI and computation, only when they bear directly on core jurisprudential questions and are visible in leading legal philosophy venues."
 korean_translation_policy:
   local_policy_path: "editorial/korean_translation_policy.md"
+  style_guide_path: "editorial/style_guide_ko.md"
   policy_ref: "internal Korean translation policy"
-  principle: "Internal distinction-preservation governs Korean translation unless a recorded exception is approved."
+  principle: "Korean translation review has two independent dimensions: term-discipline (distinction preservation) and prose quality (freedom from 번역투). Both must pass before translation_status: checked is recorded."
 contemporary_issue_scope:
   - Anglo-American analytic jurisprudence
   - legal positivism

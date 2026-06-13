@@ -36,6 +36,18 @@ The following families must be checked in Law and Reasons Korean publication wor
 - `uptake`: use `화행적수인` for Austinian or interpretive-convergence uptake, while keeping Hartian `acceptance` as `수용`.
 - `correctness`, `rightness`, `validity`, `justification`, and `legitimacy`: preserve 올바름, 옳음, 유효성/타당성, 정당화, 정당성.
 
+## Two-Dimensional Review Standard
+
+Korean translation review must assess two dimensions independently.
+
+**1. Term discipline** — Does the Korean version preserve the jurisprudential distinctions of the source text? Do the standing regression guards above pass? This is the primary and non-negotiable dimension.
+
+**2. Prose quality** — Does the Korean version read as natural Korean legal-philosophical scholarship, free of 번역투 (translation-ese)? Would a Korean reader encountering the text alone find it coherent and well-formed as Korean academic prose?
+
+Both dimensions must pass before `translation_status: checked` can be recorded. A translation that preserves all term distinctions but reads as mechanical English calque has not passed review. Conversely, polished Korean prose that collapses a term distinction has also not passed.
+
+The prose quality standard is defined in `editorial/style_guide_ko.md`. The most common prose failures are: mechanical calquing of "It is…" as "그것은/이것은…"; using "도착하다" for the arrival of abstract concepts; over-long pre-nominal modifier chains; and direct borrowing of English section-heading conventions.
+
 ## Relation to Reader-Facing Style
 
 Law and Reasons may polish Korean prose for readability, but readability cannot erase a jurisprudential distinction. Where the first occurrence of a term is likely to be ambiguous, keep the English term in parentheses.

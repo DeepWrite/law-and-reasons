@@ -89,6 +89,35 @@ status: draft
     }
 
 
+def issue_readme_files(issue: str) -> dict[str, str]:
+    return {
+        "source_dossiers/README.md": f"""# Source Dossiers: {issue}
+
+Create public source dossiers only after the Chief Editor approves source review. Do not include filesystem paths, private working notes, or restricted-source details.
+""",
+        "drafts/en/README.md": f"""# English Drafts: {issue}
+
+English drafting waits for theme, source dossier, and commissioned article approval.
+""",
+        "drafts/ko/README.md": f"""# Korean Drafts: {issue}
+
+Korean drafting or translation waits for the relevant English or Korean-first authorization.
+""",
+        "reviews/README.md": f"""# Editorial Reviews: {issue}
+
+Record durable review decisions here only when they are safe for the repository. Keep raw private review materials outside git.
+""",
+        "final/en/README.md": f"""# Final English: {issue}
+
+No final English material belongs here until the Chief Editor approves publication.
+""",
+        "final/ko/README.md": f"""# Final Korean: {issue}
+
+No final Korean material belongs here until the Chief Editor approves publication or translation.
+""",
+    }
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description="Create a Law and Reasons quarterly issue scaffold.")
     parser.add_argument("--issue", default=quarter_for())
@@ -97,6 +126,8 @@ def main() -> int:
 
     base = require_issue_dirs(args.issue)
     for relative, content in issue_files(args.issue).items():
+        write_text(base / relative, content, overwrite=args.force)
+    for relative, content in issue_readme_files(args.issue).items():
         write_text(base / relative, content, overwrite=args.force)
     print(f"Issue scaffold ready: {base.relative_to(ISSUES.parent)}")
     return 0

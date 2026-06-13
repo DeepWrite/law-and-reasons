@@ -38,7 +38,7 @@ Korean translation follows the internal Korean translation policy by default. Pu
 - `/config/historical.yml`: historical program policy
 - `/pipelines/`: scaffold and backlog generators
 - `/site/`: Jekyll publication surface for clearly labeled historical issue pages
-- `/.github/workflows/`: manual Chief Editor review workflows
+- `/.github/workflows/`: manual Chief Editor review validation workflows. Durable approval decisions still belong in the relevant `chief_editor_decisions.md` file.
 
 ## Generate A Contemporary Quarterly Issue
 
@@ -79,8 +79,11 @@ Public files should say only what is needed for the public record: source type, 
 ## Local Checks
 
 ```bash
+python3 -m venv .venv
+source .venv/bin/activate
 python3 -m pip install -r requirements.txt
 pytest
+bundle install
 bundle exec jekyll build --source site --destination docs
 ```
 

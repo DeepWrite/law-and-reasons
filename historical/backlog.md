@@ -1,6 +1,6 @@
 ---
 status: active
-updated: "2026-06-12"
+updated: "2026-06-13"
 production_order: reverse_chronological_reconstruction
 ---
 
@@ -16,7 +16,7 @@ Alternative orders remain available if the Chief Editor chooses them:
 
 | Target year | Order | Source mapping | Bibliography | Source review | Field map | Translation | Publication | Chief Editor approval | Next action |
 | ---: | ---: | --- | --- | --- | --- | --- | --- | --- | --- |
-| 2025 | 1 | scaffolded | scaffolded | scaffolded | scaffolded | not_started | not_started | proposed | Chief Editor review of source map and coverage priorities |
+| 2025 | 1 | model_source_register_ready | model_bibliography_ready | temporary_review_needed | temporary_model_public | temporary_ko_model_public | temporary_model_public | temporary_model_approved | Permanent source-map approval and final publication gate |
 | 2020 | 2 | scaffolded | scaffolded | scaffolded | scaffolded | not_started | not_started | proposed | Chief Editor review of source map and coverage priorities |
 | 2015 | 3 | scaffolded | scaffolded | scaffolded | scaffolded | not_started | not_started | proposed | Chief Editor review of source map and coverage priorities |
 | 2010 | 4 | scaffolded | scaffolded | scaffolded | scaffolded | not_started | not_started | proposed | Chief Editor review of source map and coverage priorities |

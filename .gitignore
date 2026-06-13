@@ -1,5 +1,4 @@
 .bundle/
-.github/workflows/
 .jekyll-cache/
 .sass-cache/
 site/.jekyll-cache/

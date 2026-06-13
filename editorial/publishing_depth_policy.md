@@ -35,9 +35,11 @@ Public source discipline is also privacy discipline. Public repository files sho
 
 ## Korean Translation Discipline
 
-Korean translation follows the internal Korean translation policy by default. The public operating note is `editorial/korean_translation_policy.md`.
+Korean translation is evaluated on two independent dimensions. Both must pass before `translation_status: checked` is recorded.
 
-The controlling rule is distinction preservation. Korean prose may be polished for readability, but it must not flatten source distinctions among reason/reasons/Reason, law/laws, source/foundation/ground/reference, obligation/duty/being obliged, validity/correctness/legitimacy/justification, Hartian acceptance, and interpretive-convergence uptake. Departures require a recorded reason.
+**Term discipline** is the primary dimension. The governing document is `editorial/korean_translation_policy.md`. Korean prose may be polished for readability, but it must not flatten source distinctions among reason/reasons/Reason, law/laws, source/foundation/ground/reference, obligation/duty/being obliged, validity/correctness/legitimacy/justification, Hartian acceptance, and interpretive-convergence uptake. Departures require a recorded reason.
+
+**Prose quality** is the second dimension. The governing document is `editorial/style_guide_ko.md`. A Korean text that passes term-discipline review but reads as mechanical English calque has not completed translation review. The Korean version must read as natural Korean legal-philosophical scholarship — as if it had been written in Korean from the start. 번역투 (translation-ese) is a failure mode even when content and terms are correctly rendered.
 
 ## Historical Discipline
 
