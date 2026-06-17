@@ -1,0 +1,44 @@
+name: Law and Reasons Historical Backlog Plan
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 0 15 * *"
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  update-backlog:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install Python dependencies
+        run: python -m pip install -r requirements.txt
+
+      - name: Generate historical backlog, timeline, and progress matrix
+        run: python pipelines/historical_backlog_plan.py
+
+      - name: Open or update Chief Editor review pull request
+        uses: peter-evans/create-pull-request@v6
+        with:
+          branch: editorial/historical-backlog-plan
+          commit-message: "Update historical backlog plan"
+          title: "Law and Reasons Historical Backlog Plan: Chief Editor review"
+          body: |
+            Automated Law and Reasons historical backlog update.
+
+            This refreshes:
+
+            - `historical/backlog.md`
+            - `historical/canonical_timeline.md`
+            - `historical/progress_matrix.csv`
+
+            It also ensures historical issue scaffolds and registry files exist. It does not draft, translate, or publish historical issues.
+          labels: historical-backlog

@@ -1,0 +1,85 @@
+name: Law and Reasons Historical Back-Issue Scaffold
+
+on:
+  workflow_dispatch:
+    inputs:
+      target_year:
+        description: "Historical target year"
+        required: true
+        default: "2025"
+      mode:
+        description: "Historical issue mode"
+        required: true
+        default: "retrospective_scholarly_with_time_situated_sections"
+        type: choice
+        options:
+          - retrospective_scholarly_with_time_situated_sections
+          - retrospective_scholarly_issue
+          - time_situated_issue
+      language:
+        description: "Language scaffold"
+        required: true
+        default: "en"
+        type: choice
+        options:
+          - en
+          - ko
+          - all
+      depth:
+        description: "Reconstruction depth"
+        required: true
+        default: "standard"
+        type: choice
+        options:
+          - bibliographic
+          - standard
+          - deep
+      publish:
+        description: "Record a publish request; publication still requires Chief Editor approval"
+        required: true
+        default: false
+        type: boolean
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  scaffold:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install Python dependencies
+        run: python -m pip install -r requirements.txt
+
+      - name: Create historical source map and bibliography scaffold
+        run: |
+          PUBLISH_FLAG=""
+          if [ "${{ inputs.publish }}" = "true" ]; then
+            PUBLISH_FLAG="--publish"
+          fi
+          python pipelines/historical_back_issue.py \
+            --target-year "${{ inputs.target_year }}" \
+            --mode "${{ inputs.mode }}" \
+            --language "${{ inputs.language }}" \
+            --depth "${{ inputs.depth }}" \
+            $PUBLISH_FLAG
+
+      - name: Open or update Chief Editor review pull request
+        uses: peter-evans/create-pull-request@v6
+        with:
+          branch: editorial/historical-${{ inputs.target_year }}
+          commit-message: "Scaffold historical issue ${{ inputs.target_year }}"
+          title: "Law and Reasons Historical Issue ${{ inputs.target_year }}: Chief Editor source review"
+          body: |
+            Automated Law and Reasons historical back-issue scaffold for `${{ inputs.target_year }}`.
+
+            This workflow creates the historical folder if absent, source-map scaffolds, bibliography scaffold, coverage matrix, and source-review file.
+
+            It stops before drafting. Please approve, revise, or prioritize sources in `historical/${{ inputs.target_year }}/chief_editor_decisions.md`.
+          labels: historical-back-issue

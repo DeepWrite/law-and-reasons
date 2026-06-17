@@ -1,0 +1,38 @@
+name: Quarterly Issue Scaffold
+
+on:
+  schedule:
+    - cron: "0 0 1 1,4,7,10 *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  scaffold:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install Python dependencies
+        run: python -m pip install -r requirements.txt
+
+      - name: Create Law and Reasons quarterly issue scaffold
+        run: python pipelines/generate_issue.py
+
+      - name: Open or update Chief Editor review pull request
+        uses: peter-evans/create-pull-request@v6
+        with:
+          branch: editorial/quarterly-issue-scaffold
+          commit-message: "Create Law and Reasons quarterly issue scaffold"
+          title: "Law and Reasons Quarterly Issue: Chief Editor review"
+          body: |
+            Automated contemporary issue scaffold for Law and Reasons.
+
+            This workflow does not draft, translate, or publish articles.
+          labels: quarterly-agenda
