@@ -1,6 +1,6 @@
 ---
 status: active
-updated: "2026-06-13"
+updated: "2026-08-15"
 production_order: reverse_chronological_reconstruction
 ---
 

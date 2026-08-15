@@ -1,6 +1,6 @@
 ---
 status: scaffold
-updated: "2026-06-12"
+updated: "2026-08-15"
 ---
 
 # Historical Canonical Timeline
